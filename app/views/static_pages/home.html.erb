@@ -1,15 +1,129 @@
-<div class="center jumbotron">
-  <h1>Welcome to the San Carlos Application</h1>
+<!-- What is -->
+	<div id="whatis" class="content-section-b" style="border-top: 0">
+		<div class="container">
 
-  <h2>
-    This is the home page for the
-    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-    sample application.
-  </h2>
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h3>EDUCATIONAL BACKGROUND</h3>
 
-  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
-</div>
+			</div>
+			
+			<div class="row">
+			
+				<div class="col-sm-4 wow fadeInDown text-center">
+				<%= link_to image_tag("forum.png", alt: "forum logo", :class =>"rotate", :width => 240, :height => 240),
+            'http://www.sbcforum.edu.ph/img/article3.png' %>
+				  <h5>Sotero B. Cabahug FORUM for Literacy</h5>
+				  <p class="lead">2001 - 2010 </p>
 
-<%= link_to image_tag("rails.png", alt: "Rails logo"),
-            'http://rubyonrails.org/' %>
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				<%= link_to image_tag("scihi.png", alt: "scihi logo",  :class=>"rotate",  :width => 200),
+            'www.jacklaurence.net/img/awards/mansci.png' %>
+				 
+				   <h5> Mandaue City Science High School</h5>
+				   <p class="lead"> 2010 - 2014 </p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				<%= link_to image_tag("usc.png", alt: "usc",  :class =>"rotate",  :width => 150),
+            'https://upload.wikimedia.org/wikipedia/en/3/39/University_of_San_Carlos_logo.png' %>
+				   <h5>University of San Carlos</h5>
+					<p class="lead">2014 - PRESENT </p>
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+			</div><!-- /.row -->
+		</div>
+	</div>
 
+	<!-- Use it -->
+    <div id ="useit" class="content-section-a">
+
+        <div class="container">
+			
+            <div class="row">
+			
+				<div class="col-sm-6 pull-right wow fadeInRightBig">
+				<%= link_to image_tag("jen.jpg", alt: "me",  :class =>"img-responsive"),
+            'https://scontent.fceb1-1.fna.fbcdn.net/v/t1.0-9/13501666_10204866748547535_813045959698098970_n.jpg?oh=4b90c06be76c4016fa55d70134e3bc23&oe=58DAB997' %>
+                </div>
+				
+                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">Quick Biography</h3>
+					<div class="sub-title lead3">How a dreamer Came to be</div>
+                    <p class="lead">
+						I was born and raised in Mandaue City by my two lovely parents, Jenny and Adrian Caballes. I have two sisters namely Christine and Florence Caballes. 
+						<br> <br>
+						My hobbies started to flourished at the age of 6. I joined summer art camps or dancing classes and was easily captivated by the art of dancing and painting. Later on, I grew
+						an interest in taking photographs hoping that one day i would have an exhibit of my own. By the time I was in highschool i started to love editing films, creating scripts, doing animations and desiging websites. It was then I decided to take up IT.
+						</p>		
+				</div>   
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+
+    <div id="skills" class="content-section-b" style="border-top: 0">
+		<div class="container">
+
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h3>SKILLS IN PROGRAMMING</h3>
+
+			</div>
+			
+			<div class="row">
+			
+				<div class="col-sm-4 wow fadeInDown text-center">
+				<%= link_to image_tag("html5.png", alt: "forum logo", :class =>"rotate", :width => 140),
+            'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png' %>
+				  <h5>HTML5</h5>
+				  
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				<%= link_to image_tag("css.png", alt: "scihi logo",  :class=>"rotate",  :width => 100),
+            'http://wpguru.co.uk/wp-content/uploads/2013/09/CSS-Logo-214x300.png' %>
+				 
+				   <h5>CSS</h5>
+				   
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+					<br><br>
+				<%= link_to image_tag("php.png", alt: "usc",  :class =>"rotate",  :width => 190),
+            'https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/04/1459870313PHP-logo.svg.png' %>
+            		<br>
+				   <h5>PHP</h5>				  
+				</div><!-- /.col-lg-4 -->
+			</div><!-- /.row -->
+
+			<div class="rowtwo">
+			
+				<div class="col-sm-4 wow fadeInDown text-center">
+				<%= link_to image_tag("javascript.png", alt: "forum logo", :class =>"rotate", :width => 140),
+            'https://wp-andypiapps.rhcloud.com/wp-content/uploads/2016/08/js4560_450.png' %>
+				  <h5>JAVASCRIPT</h5>
+				  
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				<%= link_to image_tag("java.png", alt: "scihi logo",  :class=>"rotate",  :width => 130),
+            'http://therealdanvega.com/wp-content/uploads/2016/01/java.png' %>
+				 
+				   <h5>JAVA</h5>
+				   
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				<%= link_to image_tag("rails.png", alt: "usc",  :class =>"rotate",  :width => 100),
+            'https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Ruby_on_Rails.svg/791px-Ruby_on_Rails.svg.png' %>
+				   <h5>RAILS</h5>				  
+				</div><!-- /.col-lg-4 -->
+			</div><!-- /.row -->
+
+			
+		</div>
+	</div>
